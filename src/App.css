@@ -5,12 +5,13 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  background-color: #1f57b2;
 }
 
 .container {
   display: flex;
   align-items: center;
-  background-color: #21222A;
+  background-color: #1127d0;
   height: 90px;
   padding: 30px 25px;
 }
@@ -32,6 +33,32 @@ nav > h4 {
 .container > img {
   height: 30px;
   margin-right: 7px;
+}
+
+.main_div{
+display: flex;
+flex-direction: column;
+background-color: #1f57b2;
+padding: 57px 27px;
+color: white;
+}
+
+.h1{
+  margin-left: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.ul {
+  margin-top: 36px;
+  max-width: 400px;
+  font-size: 20px;
+
+}
+.ul > li{
+  letter-spacing: -0.007em;
+ line-height: 19px;
+ padding-block: 10px;
 }
 /* #root {
   max-width: 1280px;
